@@ -1,0 +1,274 @@
+.pageBody {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+}
+
+h4 {
+  margin: 0;
+}
+
+.mainPicture {
+  width: 100vw;
+  height: 200px;
+  background-image: url('/src/assets/images/catalog-bg.jpg');
+  background-size: cover;
+  background-position: end;
+  background-repeat: no-repeat;
+  border-radius: 0px 0px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 50px;
+  padding-bottom: 25px;
+}
+
+.mainPicture button {
+  width: 100px;
+  height: 50px;
+  background-color: #ffffff00;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.storeInfo {
+  width: 40vw;
+  height: max-content;
+  background-color: rgba(255, 255, 255);
+  color: var(--main-color);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.storeInfo span {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: rgb(7, 66, 75);
+}
+
+.menuList {
+  display: flex;
+  width: 60vw;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.menuItem {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+.menuItem:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.menuAndCart {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.nameDesc {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+}
+
+.theButtons {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.leButton {
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.leButton:hover {
+  cursor: pointer;
+  background-color: var(--main-color);
+}
+
+.buttonAndPrice {
+  display: flex;
+  gap: 150px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 100px;
+  height: max-content;
+  width: 90%;
+  color: var(--main-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.cart h1 {
+  color: #fbf2cf;
+}
+
+.cart span {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.boughtProducts {
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: max-content;
+  padding: 25px 50px;
+  border-radius: 50px;
+}
+
+.cartProductInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 100px;
+  border-bottom: solid 1px #fbf2cf;
+  margin-bottom: 25px;
+  align-items: center;
+  color: #fbf2cf;
+}
+
+.cartProductInfo:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.cartProductInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 100px;
+}
+
+.noProducts {
+  text-align: center;
+  width: 100%;
+}
+
+.nameAndDesc {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.nameAndDesc p {
+  width: inherit;
+}
+
+.numberInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.orderButton {
+  border: none;
+  width: 120px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: var(--main-color);
+  color: white;
+}
+
+.orderButton:hover {
+  background-color: #04535e;
+  cursor: pointer;
+}
+
+//* ------------- responsive -------------- */
+
+@media only screen and (max-width: 1700px) {
+  .menuAndCart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .menuItem {
+    flex-direction: column;
+    text-align: center;
+  }
+  .menuItem p {
+    width: 300px;
+    height: max-content;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .menuItem {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .menuItem p {
+    width: 200px;
+    height: max-content;
+  }
+
+  .buttonAndPrice {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+
+@media only screen and (max-width: 595px) {
+  .mainPicture {
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .backButton {
+    justify-self: start;
+    height: 40px;
+    background-color: #ffffff00;
+    border: none;
+    color: #fbf2cf;
+    cursor: pointer;
+  }
+
+  .storeInfo {
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .storeInfo span {
+    font-size: 1rem;
+  }
+
+  .cart {
+    gap: 20px;
+  }
+
+  .orderButton {
+    width: 80px;
+  }
+}

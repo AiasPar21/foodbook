@@ -1,0 +1,65 @@
+h1 {
+  color: var(--main-color);
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.addr {
+  width: 300px;
+  height: 40px;
+  padding-left: 15px;
+  border-radius: 50px;
+  margin-right: 15px;
+  border: none;
+}
+
+.addrbutton {
+  height: 40px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: var(--main-color);
+  border: none;
+}
+
+.addrbutton:hover {
+  background-color: #04535e;
+  cursor: pointer;
+  color: white;
+}
+
+.address {
+  align-self: center;
+  height: max-content;
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.theWay {
+  margin-top: -250px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  height: max-content;
+}
+
+//* ------------- responsive -------------- */
+
+@media only screen and (max-width: 595px) {
+  .address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .theWay {
+    font-size: 1.7rem;
+  }
+}

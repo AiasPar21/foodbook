@@ -1,0 +1,289 @@
+[
+  {
+    "id": 0,
+    "name": "Macaroni",
+    "deliveryTime": "50'",
+    "address": "Makrigianni 50, Athens",
+    "content": "In this place you will eat the best pasta in town",
+    "image": "./src/assets/images/pasta-bg.jpg",
+    "category": "Pasta",
+    "catalog": [
+      {
+        "id": 11,
+        "title": "Pasta on the rocks",
+        "description": "Pasta plate like nothing else!",
+        "price": 50
+      },
+      {
+        "id": 12,
+        "title": "Pasta mama mia",
+        "description": "Just pasta",
+        "price": 25
+      },
+      {
+        "id": 13,
+        "title": "Pasta pasta",
+        "description": "I mean it's alright..",
+        "price": 10
+      },
+      {
+        "id": 14,
+        "title": "Pasta now",
+        "description": "Pasta for you",
+        "price": 20
+      },
+      {
+        "id": 15,
+        "title": "Pasta",
+        "description": "just get that",
+        "price": 13
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Souvlakas",
+    "deliveryTime": "30'",
+    "address": "Makrigianni 70, Athens",
+    "content": "Pizzes ithela na poulhso alla anoiksa lathos magazi",
+    "image": "./src/assets/images/souvlakas-bg.jpg",
+    "category": "Souvlaki",
+    "catalog": [
+      {
+        "id": 21,
+        "title": "kalamaki tou kafe",
+        "description": "den einai tou kafe xoirino einai",
+        "price": 2.3
+      },
+      {
+        "id": 22,
+        "title": "gyro xoirino se pita",
+        "description": "kai auto xoirino einai",
+        "price": 3
+      },
+      {
+        "id": 23,
+        "title": "gyro kotopoulo",
+        "description": "kotopoulo paragogis kalis",
+        "price": 3.3
+      },
+      {
+        "id": 24,
+        "title": "kalamaki kotopoulo",
+        "description": "afto isos einai tou kafe",
+        "price": 2.4
+      },
+      {
+        "id": 25,
+        "title": "doner",
+        "description": "poios troei doner",
+        "price": 1.2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "pizzoni",
+    "deliveryTime": "45'",
+    "address": "Karagiorgi 35, Athens",
+    "content": "Pizza for you",
+    "image": "./src/assets/images/pizzoni-bg.jpg",
+    "category": "Pizza",
+    "catalog": [
+      {
+        "id": 31,
+        "title": "BBQ Chicken",
+        "description": "You know what I'm talking about",
+        "price": 13
+      },
+      {
+        "id": 32,
+        "title": "Classic",
+        "description": "Order and see what's inside",
+        "price": 10
+      },
+      {
+        "id": 33,
+        "title": "Peperoni",
+        "description": "This actualy does not have peperoni",
+        "price": 14
+      },
+      {
+        "id": 34,
+        "title": "Pineapple",
+        "description": "Naaah that's illegal. Just give me your money and I might make it for you",
+        "price": 500
+      },
+      {
+        "id": 35,
+        "title": "Vegan",
+        "description": "It will have meat in it",
+        "price": 20
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Burgeri",
+    "deliveryTime": "34'",
+    "address": "Nikolaou Artikou 20, Athens",
+    "content": "Burger apo allou",
+    "image": "./src/assets/images/burgeri-bg.jpg",
+    "category": "Burger",
+    "catalog": [
+      {
+        "id": 41,
+        "title": "Philly Burger",
+        "description": "Philadelphia cheese inside the bun",
+        "price": 20
+      },
+      {
+        "id": 42,
+        "title": "cheeseburger",
+        "description": "classic one to choose",
+        "price": 15
+      },
+      {
+        "id": 43,
+        "title": "double cheeseburger",
+        "description": "classic x2",
+        "price": 20
+      },
+      {
+        "id": 44,
+        "title": "Trilpe cheeseburger",
+        "description": "classic x3",
+        "price": 25
+      },
+      {
+        "id": 45,
+        "title": "no burger",
+        "description": "Just cheese and bread. And a little bit of Ketchup",
+        "price": 10
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Crazy Burger",
+    "deliveryTime": "25'",
+    "address": "Sofokleos 10, Athens",
+    "content": "For burger lovers",
+    "image": "./src/assets/images/crazyburger-bg.jpg",
+    "category": "Burger",
+    "catalog": [
+      {
+        "id": 51,
+        "title": "Burger night",
+        "description": "mystery burger from us",
+        "price": 30
+      },
+      {
+        "id": 52,
+        "title": "cheeseburger",
+        "description": "Cheese and beef.",
+        "price": 12
+      },
+      {
+        "id": 53,
+        "title": "ham and bacon",
+        "description": "everything you ever wanted",
+        "price": 20
+      },
+      {
+        "id": 54,
+        "title": "onions",
+        "description": "It has one big onion so you can remove it but pay double the price of the cheeseburger",
+        "price": 24
+      },
+      {
+        "id": 55,
+        "title": "nothing",
+        "description": "Just the bun",
+        "price": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Nice Souvl",
+    "deliveryTime": "30'",
+    "address": "Romakli 24, Athens",
+    "content": "For Souvlaki lovers",
+    "image": "./src/assets/images/souvl-bg.jpg",
+    "category": "Souvlaki",
+    "catalog": [
+      {
+        "id": 61,
+        "title": "Kotopoulo kalamaki",
+        "description": "apola me sos",
+        "price": 2.5
+      },
+      {
+        "id": 62,
+        "title": "xoirino kalamaki",
+        "description": "me tzatziki oxi me sos",
+        "price": 2.8
+      },
+      {
+        "id": 63,
+        "title": "gyros kotopoulo",
+        "description": "Double it and give it to the next one",
+        "price": 3.5
+      },
+      {
+        "id": 64,
+        "title": "gyros xoirinos",
+        "description": "kai auto me tzatziki",
+        "price": 4
+      },
+      {
+        "id": 65,
+        "title": "Vegan",
+        "description": "apla marouli",
+        "price": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Pizza Mama",
+    "deliveryTime": "50'",
+    "address": "Dionisi 10, Athens",
+    "content": "Pizza & Love",
+    "image": "./src/assets/images/pizzamama-bg.jpg",
+    "category": "Pizza",
+    "catalog": [
+      {
+        "id": 71,
+        "title": "Pizza & Love Classic",
+        "description": "Trust us and get this",
+        "price": 14
+      },
+      {
+        "id": 72,
+        "title": "BBQ Chicken",
+        "description": "Everyone loves that (it has chicken in it)",
+        "price": 13
+      },
+      {
+        "id": 73,
+        "title": "Peperoni",
+        "description": "If you get that, I'll give you two",
+        "price": 20
+      },
+      {
+        "id": 74,
+        "title": "Pineapple",
+        "description": "No",
+        "price": 200
+      },
+      {
+        "id": 75,
+        "title": "Watermelon",
+        "description": "This is getting out of hand",
+        "price": 300
+      }
+    ]
+  }
+]

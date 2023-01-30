@@ -1,0 +1,31 @@
+.everything {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  height: 40px;
+  width: max-content;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: var(--main-color);
+  border: none;
+}
+
+button:hover {
+  color: #fbf2cf;
+  background-color: #04535e;
+  cursor: pointer;
+}
+
+//* ------------- responsive -------------- */
+
+@media only screen and (max-width: 500px) {
+  .everything h1 {
+    font-size: 1.7rem;
+  }
+}
